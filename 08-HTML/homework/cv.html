@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Fira+Mono:wght@500&family=Oswald&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body,
+      html {
+        height: 100%;
+        width: 100%;
+        flex-wrap: wrap;
+      }
+      body {
+        font-size: 18.4px;
+        font-family: "Fira Mono", monospace;
+      }
+      img {
+        border-radius: 200px;
+        width: 15%;
+        max-width: 400px;
+        min-width: 150px;
+        height: auto;
+        padding: 2px;
+      }
+
+      #title {
+        font-size: 135px;
+        font-family: "Oswald", sans-serif;
+      }
+
+      .sub-title {
+        font-size: 55px;
+        font-family: "Oswald", sans-serif;
+      }
+      p.sub-title {
+        font-size: 25px;
+        font-family: "Oswald", sans-serif;
+      }
+
+      ul {
+        margin-left: 22px;
+      }
+      .container {
+        padding: 1.5rem;
+      }
+
+      .container-sections {
+        color: white;
+        background-color: black;
+      }
+
+      .box {
+        display: flex;
+        align-items: center;
+        flex-wrap: initial;
+        word-wrap: break-word;
+      }
+
+      div.sections {
+        padding: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sections">
+        <h1 id="title">Curriculum Vitae</h1>
+      </div>
+      <div class="container-sections">
+        <div class="sections">
+          <div class="box">
+            <h1 class="sub-title">Descripcion Personal</h1>
+            <p>
+                Hola, mi nombre es Matias Agustín Benitez, tengo 19 años y vivo
+                en Argentina. Soy un Técnico Programador orientado a desarrollo
+                web back-end con experiencia con NodeJs, MongoDB y RestApi.
+            </p>
+            <img
+              src="https://avatars1.githubusercontent.com/u/59451003?s=400&u=680141c537bfb7e80908fba4e07439923f7693e3&v=4"
+              alt="Perfil photo"
+            />
+          </div>
+        </div>
+        <div class="sections">
+          <h1 class="sub-title">Educación</h1>
+          <p class="sub-title">Escuela Técnica Nro 4 de Berazategui</p>
+          <p>(2014-2020)</p>
+          <p>&bull; Técnico en Programación</p>
+        </div>
+        <div class="sections">
+          <h1 class="sub-title">Experiencias Laborales</h1>
+          <p>Como recien graduado, no poseo experiencia laboral.</p>
+        </div>
+        <div class="sections">
+          <h1 class="sub-title">Skills</h1>
+          <ul>
+            <li>Inglés Intermedio</li>
+            <li>NodeJs</li>
+            <li>RestApi</li>
+            <li>MongoDB</li>
+            <li>MySql</li>
+            <li>PHP</li>
+            <li>React</li>
+            <li>Typescript</li>
+          </ul>
+        </div>
+        <div class="sections">
+          <h1 class="sub-title">Hobbies</h1>
+          <p>
+            En mis tiempos suelo estudiar temas relacionados a la programación,
+            tambien juego o leo comics. El deporte es una de las cosas que me
+            gusta realizar pero debido al confinamiento es una práctica que tuve
+            que dejar. A veces suelo ver videos en youtube o directos por
+            twitch.
+          </p>
+        </div>
+        <div class="sections">
+          <h1 class="sub-title">Explicacion</h1>
+          <p>
+            Mi motivo para estudiar esta carrera es mejorar como programador y
+            ser mas competente. A su vez, la idea de estudiar y al terminar la
+            carrera poder conseguir un trabajo de lo que me gusta me impulsa a
+            tener mas ganas de finalizar esto. Siento que va a ser un trayecto
+            dificil pero que al final va a valer la pena el esfuerzo.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
